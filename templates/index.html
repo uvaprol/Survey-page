@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/style/style.css">
+        <link rel="icon" href="../static/img/logo.ico">
+        <title>Страница опроса</title>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+        </script>
+        <script src="../static/scripts/script.js"></script>
+</head>
+<body>
+    <header>
+        <section>
+            <img src="../static/img/h1.png" alt="img">
+            <img src="../static/img/h2.png" alt="img">
+            <img src="../static/img/h3.png" alt="img">
+            <img src="../static/img/h4.png" alt="img">
+            <img src="../static/img/h5.png" alt="img">
+        </section>
+        <section>
+            <h2>ФЕДЕРАЛЬНЫЙ ПРОЕКТ</h2>
+            <h1>«СОДЕЙСТВИЕ ЗАНЯТОСТИ»</h1>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h3>Уважаемые партнеры!</h3>
+            <h4>
+                Просим вас пройти предварительную регистрацию для участия в проекте,<br>
+                реализуемом Институтом профессионального образования (ИРПО)<br>
+                в качестве федерального оператора федерального проекта<br>
+                «Содействие занятости» национального проекта «Демография».
+            </h4>
+        </section>
+        <section>
+            <h4>Наименование организации</h4>
+            <textarea name="orgName" id="orgName" cols="50" rows="4"></textarea>
+            <h4>Наименование организации (сокращенное, в<br>соответствии с Уставом)</h4>
+            <textarea name="shortOrgName" id="shortOrgName" cols="50" rows="4" ></textarea>
+        </section>
+        <section>
+            <h4>Тип участника</h4>
+            <p>
+                согласно классификации п. 2 проекта Порядка предварительного квалификационного<br>
+                отбора (ПКО) организаций, осуществляющих образовательную деятельность в субъектах<br>
+                Российской Федерации в рамках Проекта «Содействие занятости
+            </p>
+            <select name="Тип участника" id="userType">
+                <option value="РО- региональный оператор">РО- региональный оператор</option>
+                <option value="ЦО - центр обучения">ЦО - центр обучения</option>
+                <option value="ФОЦ - федеральный образовательный центр">ФОЦ - федеральный образовательный центр</option>
+            </select>
+        </section>
+        <section>
+            <h4>Должность руководителя организации</h4>
+            <input type="text" name="Должность руководителя организации" id="bossPost">
+            <h4>ФИО руководителя</h4>
+            <input type="text" name="ФИО руководителя" id="bossName">
+            <h4>Должность ответственного лица</h4>
+            <input type="text" name="Должность ответственного лица" id="responsiblePost">
+            <h4>ФИО ответственного лица</h4>
+            <input type="text" name="ФИО ответственного лица" id="responsibleName">
+            <h4>Телефон</h4>
+            <input type="text" name="Телефон" id="tel">
+            <h4>Эл.почта</h4>
+            <input type="text" name="Email" id="e-mail">
+        </section>
+        <footer>
+            <button onclick="sendOffer()">Отправить</button>
+        </footer>
+    </main>
+</body>
+</html>
