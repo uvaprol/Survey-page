@@ -13,6 +13,7 @@ function line_generator() {
         for (row of data){
             let td = '<tr>'
             for (item of row){
+                item = String(item).split('').join("\u200B")
                 td += `<td>${item}</td>`
            }
            td += '</tr>'

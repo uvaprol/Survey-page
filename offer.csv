@@ -2,3 +2,8 @@ orgName,shortOrgName,userType,bossPost,bossName,responsiblePost,responsibleName,
 check,check,РО- региональный оператор,check,check,check,check,check,check,2024-03-12
 тест,тест,РО- региональный оператор,тест,тест,тест,тест,тест,тест,2024-03-12
 new,new,ФОЦ - федеральный образовательный центр,new,new,new,new,new,new,2024-03-12
+<script> alert(0)</script>,<script> alert(0)</script>,РО- региональный оператор,<script> alert(0)</script>,<script> alert(0)</script>,<script> alert(0)</script>,<script> alert(0)</script>,<script> alert(0)</script>,<script> alert(0)</script>,2024-03-13
+<script>console.log(0)</script>,<script>console.log(0)</script>,ФОЦ - федеральный образовательный центр,<script>console.log(0)</script>,<script>console.log(0)</script>,<script>console.log(0)</script>,<script>console.log(0)</script>,<script>console.log(0)</script>,<script>console.log(0)</script>,2024-03-13
+<div>a</div>,<div>a</div>,ФОЦ - федеральный образовательный центр,<div>a</div>,<div>a</div>,<div>a</div>,<div>a</div>,<div>a</div>,<div>a</div>,2024-03-13
+"<div style=""color{red}"">a</div>","<div style=""color{red}"">a</div>",ЦО - центр обучения,"<div style=""color{red}"">a</div>","<div style=""color{red}"">a</div>","<div style=""color{red}"">a</div>","<div style=""color{red}"">a</div>","<div style=""color{red}"">a</div>","<div style=""color{red}"">a</div>",2024-03-13
+"<div style=""color:red"">a</div>","<div style=""color:red"">a</div>",ФОЦ - федеральный образовательный центр,"<div style=""color:red"">a</div>","<div style=""color:red"">a</div>","<div style=""color:red"">a</div>","<div style=""color:red"">a</div>","<div style=""color:red"">a</div>","<div style=""color:red"">a</div>",2024-03-13
