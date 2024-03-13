@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VDB</title>
+    <link rel="stylesheet" href="../static/style/styleDB.css">
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+        </script>
+    <script src="../static/scripts/scriptDB.js"></script>
+</head>
+<body>
+    <section>
+        <input type="text" placeholder="login" id="login">
+        <input type="password" placeholder="password" id="password">
+        <button onclick="line_generator()">getDB</button>
+    </section>
+    <table id="table">
+        <tr>
+            <td>id записи</td>
+            <td>Наименование организации</td>
+            <td>Краткое наименование</td>
+            <td>Тип участника</td>
+            <td>Должность руководителя организации</td>
+            <td>ФИО руководителя</td>
+            <td>Должность ответственного лица</td>
+            <td>ФИО ответственного лица</td>
+            <td>Телефон</td>
+            <td>Эл.почта</td>
+            <td>Дата создания</td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -13,4 +13,9 @@ import pandas as pd
 #     'date-time'])
 #
 # df.to_csv('offer.csv', index=False, header=True)
-print(pd.read_csv('offer.csv'))
+# df = pd.read_csv('offer.csv').reset_index()
+# response_list = [[item for item in row] for index, row in df.iterrows()]
+# # for index, row in df.iterrows():
+# #     for i in row:
+# #         print(i)
+# print(response_list)

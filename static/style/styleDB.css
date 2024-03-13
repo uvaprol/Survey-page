@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  border: solid black 1px;
+  width: 300px;
+  text-align: center;
+}/*# sourceMappingURL=styleDB.css.map */
